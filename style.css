@@ -1,0 +1,363 @@
+                            /* header */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+.header{
+     background-color:#112A63;
+}
+.navbar{
+    padding-top: 20px !important; 
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 40px;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.banner{
+    margin-top: 4%;
+    color: #fff;
+}
+
+.banner h1{
+    margin: 80px 0 50px 40px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner img{
+    max-height: 500px;
+}
+
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #112A63;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.banner a:hover{
+    color: #fff;
+}
+
+.express-btn{
+    background: #fff !important;
+    color: black !important;
+    margin-right: 5px;
+    margin-left: 40px;
+    margin-bottom: 55px;
+}
+
+.fa-facebook,.fa-whatsapp{
+    color: #000;
+    font-size: 20px !important;
+}
+                    /* Services */
+.services{
+margin: 75px 0;
+}
+
+.stitle{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.ssubtitle{
+    text-align: center;
+    margin: 70px;
+    font-size: 15px;
+}
+
+.services-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+
+.services-box img{
+    width: 200px;
+    margin-top: 65;
+    margin-bottom: 45px;
+}
+
+.services-box h6{
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.services-box p{
+    font-size: 14px;
+    color: #808080;
+}
+
+.fa-arrow-right{
+    font-size: 22px !important;
+    margin: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.service-box :hover,.active-service{
+    background:#112A63;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
+}
+
+.active-service p{
+    color: #fff;
+}
+
+                            /* Features */
+.Feature,.Explore{
+    margin: 200px 0;
+}
+
+.Feature img{
+    margin-top: 140px;
+    max-width: 77%;
+    cursor: pointer;
+}
+
+.Feature h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #000;
+}
+
+.Feature p,.Explore{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.Feature a{
+    padding: 15px 10px;
+    width: 170px;
+    display: block;
+    background: #112A63;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
+}
+
+.Explore a{
+    padding: 15px 10px;
+    width: 170px;
+    display: block;
+    background: #112A63;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
+    margin-bottom: 50px;
+}
+
+.Explore h2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #000000;
+}
+
+                              /* Reviews       */
+.Review{
+    margin: 100px 0;
+}
+
+.carousel-item img{
+    width: 100px !important;
+    border-radius: 50px;
+}
+
+.carousel-item{
+    text-align: center !important;
+    height: 430px;
+}
+
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(163, 163, 223, 0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000;
+}
+
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080 !important;
+}
+
+.carousel-indicators li{
+    background-color:#112A63 !important;
+}
+
+@media only screen and (max-width: 800px){
+    .carousel-item{
+        height: 520px;
+    }
+    .carousel-caption{
+        margin:0 10px 50px 10px;
+        left: 0;
+        right: 0;     
+    }   
+}       
+
+                                    /* footer */
+.Footer{
+    background: #112A63;
+    padding-top: 5px;
+} 
+
+.Footer h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 70px 0;
+}
+
+.Footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+::placeholder{
+    color: #efefef;
+    font-size: 13px;
+}
+
+.Footer button{
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    color:#112A63;
+    background-color: #fff;
+    border: 1px solid #000000;
+    font-size: 20px;
+    /* box-shadow: 0 9px 9px 1px rgba(248, 246, 246, 0.5); */
+    border-radius: 5px;
+    /* background: transparent; */
+}
+
+.Footer small{
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+
+.Footer p{
+    font-size: 14px;
+    /* padding: 70px; */
+    padding-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+
+
+
+                            /* Services Css  */
+@media screen and (max-width:600px){
+.card{
+            height: auto;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+}
+                            
+.contain-heading{
+    text-align: center;
+    font-weight: bold;
+    background-color: #112A63;
+    color: #fff;
+}
+                            
+.conatainer-paragraph{
+    text-align: center;
+    font-size: 15px;
+}                            
+
+
+                    /* Portfolio Css  */
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+  .niche{
+    text-align: center;
+    font-weight: bold;
+    background-color: #112A63;
+    color: #fff;
+    margin-top: 30px;
+}
+
+video {
+    /* width: 100%; */
+    height: auto;
+  }
